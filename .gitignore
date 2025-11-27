@@ -1,0 +1,99 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon
+Icon
+
+# Thumbnails
+Thumbs.db
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+.env
+
+# --- Build artifacts ---
+build/
+bin/
+obj/
+out/
+dist/
+*.o
+*.so
+*.a
+*.dll
+*.exe
+*.out
+*.elf
+*.hex
+*.bin
+
+# --- Arduino / PlatformIO ---
+/.pio/
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lss
+
+# --- Temporary / swap ---
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+
+# --- Archives ---
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# --- Coverage / test ---
+.pytest_cache/
+.coverage
+coverage/
+.cache/
+
+# --- Misc ---
+Thumbs.db
+desktop.ini
+
+# --- EAGLE / PCB design editor: ignore common backup / version / temp files ---
+# Many Eagle versions create backup/version files containing the character "#" (e.g. Controller.b#1, tactilePop.s#1)
+# Ignore any file with a '#' in the filename (these are typically version/backup files)
+*#*
+
+# Common Eagle backup/temp suffixes
+*.bak
+*.bak~
+*.sch-bak
+*.brd-bak
+
+# Some CAM / job temporary files
+*.job
+*.pro~
+
+# If you prefer to keep CAM/job/pro files tracked, remove the above lines that match *.job or *.pro~

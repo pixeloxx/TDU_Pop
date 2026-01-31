@@ -1,6 +1,6 @@
 ## Tactile Pop
 
-A simple oral electrotaticle interface based on this [paper by Kurt Kaczmarek](https://www.sciencedirect.com/science/article/pii/S1026309811001702) and some inspiration from Cthulhu Shield by [Sapien LLC](http://sapienllc.com/). 
+A simple oral electro tactile interface based on this [paper by Kurt Kaczmarek](https://www.sciencedirect.com/science/article/pii/S1026309811001702) and some inspiration from Cthulhu Shield by [Sapien LLC](http://sapienllc.com/). 
 
 The basic setup is a shield for the Arduino Mega board, with an edge connector for attaching TDU electrodes. The electrode pop us is a PCB, so not certified for contact with the mouth: please use at your own risk! The pop should be coated with a food safe resin, leaving the electrodes exposed. Use gold coating on the electrode pcb for a safer surface coating. 
 

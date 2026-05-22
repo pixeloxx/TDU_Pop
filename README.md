@@ -2,7 +2,7 @@
 
 A simple oral electro tactile interface based on this [paper by Kurt Kaczmarek](https://www.sciencedirect.com/science/article/pii/S1026309811001702) and some inspiration from Cthulhu Shield by [Sapien LLC](http://sapienllc.com/). 
 
-The basic setup is a shield for the Arduino Mega board, with an edge connector for attaching TDU electrodes. The electrode pop us is a PCB, so not certified for contact with the mouth: please use at your own risk! The pop should be coated with a food safe resin, leaving the electrodes exposed. Use gold coating on the electrode pcb for a safer surface coating. 
+The basic setup is a shield for the Arduino Mega board, with an edge connector for attaching TDU electrodes. The Tactile Pop itself uses a PCB, so it is not certified for contact with the mouth: please use it at your own risk! The pop should be coated with a food safe resin, leaving the electrodes exposed. Use gold coating on the electrode PCB for a safer surface coating. 
 
 This repository contains firmware, patterns and Eagle project files for the Tactile Pop TDU. 
 
@@ -22,11 +22,6 @@ Quick start
 1. Open the relevant Arduino sketch from `Code/` in the Arduino IDE .
 2. Compile and upload to your compatible microcontroller.
 3. Use the `Patterns` sketch or the serial interface to send patterns to the device.
-
-Notes about Eagle files and git
------------------------------
-- Eagle generates backup/version files with `#` in their filenames (for example `Controller.b#1`) — these are ignored by the repository's `.gitignore` by default.
-- Primary Eagle files (`*.sch`, `*.brd`) are kept under version control here. If you want to change what is ignored, edit the `.gitignore` in the project root.
 
 Electrode stimulation 
 ----------------------
